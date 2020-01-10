@@ -1,0 +1,133 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+}
+
+body{
+
+    overflow: hidden;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-position:  0 -250px;
+
+    background-image: url('https://image.freepik.com/fotos-gratis/ringue-de-boxe-com-iluminacao-por-holofotes_34982-83.jpg');
+}
+
+
+
+#React , #Flutter {
+
+    width: 450px;
+
+    height: 500px;
+    
+
+    color: rgb(255, 255, 255);
+
+    font-family: 'Courier New', Courier, monospace;
+
+    font-size: 20px;
+
+    text-shadow: 1px 1px 1px blue;
+
+    
+
+ 
+
+    position: relative;
+}
+
+#React{
+
+
+    float: left;
+
+    animation-name: react;
+
+    animation-duration: 5s;
+
+    animation-iteration-count: infinite;
+
+    animation-timing-function: ease-in-out;
+}
+
+#Flutter{
+
+    float: right;
+
+    animation-name: flutter;
+
+    animation-duration: 5s;
+
+    animation-iteration-count: infinite;
+
+    animation-timing-function: ease-in-out;
+    
+}
+
+
+
+img{
+
+    width: 350px;
+}
+
+
+
+
+
+@keyframes react{
+
+0%{
+
+    top: 0px;
+
+    left: 0px;
+}
+
+45%{
+
+    top: 200px;
+
+    left: 350px;
+}
+
+100%{
+
+    top: 0px;
+
+    left: 0px;
+}
+    
+}
+
+
+@keyframes flutter{
+
+    0%{
+    
+        top: 0px;
+    
+        right: 0px;
+    }
+    
+    45%{
+    
+        top: 200px;
+    
+        right: 350px;
+    }
+    
+    100%{
+    
+        top: 0px;
+    
+        right: 0px;
+    }
+        
+    }
